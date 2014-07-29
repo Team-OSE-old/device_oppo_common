@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 Slimroms
+ * Copyright (C) 2014 oseroms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.ose.device.settings;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -37,14 +37,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.slim.AppHelper;
-import com.android.internal.util.slim.ButtonsConstants;
-import com.android.internal.util.slim.DeviceUtils;
-import com.android.internal.util.slim.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.ose.AppHelper;
+import com.android.internal.util.ose.ButtonsConstants;
+import com.android.internal.util.ose.DeviceUtils;
+import com.android.internal.util.ose.DeviceUtils.FilteredDeviceFeaturesArray;
 
-import com.slim.device.KernelControl;
-import com.slim.device.R;
-import com.slim.device.util.ShortcutPickerHelper;
+import com.ose.device.KernelControl;
+import com.ose.device.R;
+import com.ose.device.util.ShortcutPickerHelper;
 
 public class ScreenOffGesture extends PreferenceFragment implements
         OnPreferenceChangeListener, OnPreferenceClickListener,

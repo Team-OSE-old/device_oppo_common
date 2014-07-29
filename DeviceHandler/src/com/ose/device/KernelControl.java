@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 SlimRoms Project
+ * Copyright (C) 2014 oseRoms Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.slim.device;
+package com.ose.device;
 
-import com.slim.device.util.FileUtils;
+import com.ose.device.util.FileUtils;
 
 import java.io.File;
 
@@ -61,7 +61,7 @@ public final class KernelControl {
     }
 
     /**
-     * Check if kernel supports arrow up gesture - slim specific.
+     * Check if kernel supports arrow up gesture - ose specific.
      * As well ugly but needed for now.
      */
     public static boolean isArrowUpSupported() {

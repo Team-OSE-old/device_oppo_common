@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 Slimroms
+ * Copyright (C) 2014 oseroms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.ose.device.settings;
 
 import android.app.Activity;
 import android.os.Bundle;
